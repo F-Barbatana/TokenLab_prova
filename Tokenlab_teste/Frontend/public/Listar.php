@@ -68,7 +68,7 @@
             <input value='.$ArrayDeEventos[$i]["horaIni"].' hidden name="horaI">
             <input value='.$ArrayDeEventos[$i]["horaFim"].' hidden name="horaF">
             <input value="3" hidden name="escolha">
-            <button class="btn  green"><i class="material-icons">send</i></button>
+            <button class="btn  green"><i class="material-icons">border_color</i></button>
             </form>
             
             

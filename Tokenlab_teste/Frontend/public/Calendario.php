@@ -24,14 +24,15 @@
 
 <main>
   <div class="row"></div>
-  <div class="container">
 
-  
+  <div class="container">
+  <div class="row">
+  <div class="col s12  m4 l3"></div>
+  <div class="col s12  m4 l6">
     <div class="row blue darken-3">
     <form class="col s12" action="../../Backend\SRC\Eventos.php" method="GET">
       <div class="row  ">
-      <div class=" col s12 m12 l3"></div>
-        <div class="input-field col s12 m12 l5">
+        <div class="input-field ">
           <input  id="Data" type="date" class="datepicker white" required  name="Data">
           <label for="Data">Selecione uma data</label>   <!-- Parte responsavel pela seleção de datas para o sistema-->
         </div>
@@ -39,16 +40,19 @@
         <input value="1" name="escolha" hidden>
 
         <div class=" col s12 m12 l12  center">
-            <button class="btn green " type="submit">Criar evento<i class="material-icons">send</i></button> <!-- Parte para a criação de eventos-->
+            <button class="btn green " type="submit">Criar evento</button> <!-- Parte para a criação de eventos-->
             </form>
 
             <a href="./Listar.php" class="btn blue"> Lista de Eventos</a><!-- Listagem de eventos-->
             
         </div>
-        <div class=" col s12 m12 l3"></div>
-      </div>
+        </div>
+        </div>
+      
+        </div>
   
     </div>
+    <div class="col s12  m4 l3"></div>
     </div>
   </main>
 
@@ -64,7 +68,9 @@
     <!--  Materialize JS CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
     <!-- My JS base -->
-    <script src="../src/Base.js"></script>
+    <script type="text/javascript">
+    
+  </script>
  
 </body>
 

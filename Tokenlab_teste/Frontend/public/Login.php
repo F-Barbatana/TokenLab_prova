@@ -30,7 +30,8 @@
 <main >
 <div class="row"></div>
 <div class="row">
-<div class="col s12  m12 l12">
+<div class="col s12  m4 l4"></div>
+<div class="col s12  m4 l4">
     <div class="container">  
     <div class="card indigo darken-2">
         <div class="card-content white-text">
@@ -60,6 +61,7 @@
 
     </div>
 </div>
+<div class="col s12  m4 l4"></div>
 </div>
 
 </main>
