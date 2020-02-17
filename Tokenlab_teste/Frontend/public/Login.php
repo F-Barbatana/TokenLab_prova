@@ -1,79 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<meta charset="utf-8">
-<meta author="Fabricio Eras Manzi Barbatana Filho">
+  <html lang="pt-br">
+    <head>
+      <meta charset="utf-8">
+      <meta name="Author" content="Fabrício Barbatana Filho">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="src/css/contrast.css">
+      <title>Eventos</title>
 
-<head>
-    <title>Eventos</title>
-    <!--  My CSS -->
-    <link rel="stylesheet" href="../Tokenlab_teste/Frontend/src/Base.css">
-    <!--  Materialize CSS CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Matrial icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    </head>
 
-    <!-- favcon -->
+    <body class="grey lighten-3 ">
 
-    <!-- End of favcon-->
-</head>
+    <header >
 
-<body>
-<header>
-<nav>
-    <div class="indigo lighten-2"><div class="row">
-    <a href="#" class="brand-logo center">Eventos</a>     <!-- Navbar first page-->
-    </div><br>
-    </div>
+
+<!-- Navbar -->
+<nav class="hide-on-small-only white nav-extended"></nav>
+
+  <nav class="white  z-depth-1">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#menu" id="base" class="brand-logo center  red-text">Eventos</a>
+        </div>
+          
+        </div>
   </nav>
+  </div>
 </header>
 
-<main >
-<div class="row"></div>
+<!-- Conteudo -->
+
+<main>
+
+
+
+  <!-- Login -->
+
+
+  <section>
+      <div class="row">
+        <div class="col s12 l6 m6">
+            <div  class="container  center">
+
+            <img class=" z-depth-0  responsive-img  logo-lateral center"  src="https://festivaljota.com/wp-content/uploads/sites/44/2015/07/Calend%C3%A1rio.png">
+            </div>
+        </div>
+        <div class="col s12 l6 m6">
+          <div  class="container">
+            <h2 class="center">Login</h2>
+            <p  class="flow-text center">
+            <form  action="/Backend\SRC\Verificar.php" method="POST">
+
 <div class="row">
-<div class="col s12  m12 l12">
-    <div class="container">  
-    <div class="card indigo darken-2">
-        <div class="card-content white-text">
-          <span class="card-title">Login</span>
-          <form  action="../Tokenlab_teste/Backend\SRC\Verificar.php" method="POST">
-
-          <div class="row">
-        <div class="input-field col s12">
-          <input  id="first_name" type="text" class="validate white" required name="Nome">
-          <label for="first_name">Nome de Usuário</label>
-        </div>
-        <input hidden name="op" value="0">
-        <div class="input-field col s12">
-        <input id="password" type="password" class="validate white" required name="Senha">
-          <label for="password">Senha</label>
-        </div>
-        <div class="input-field col s12 center">
-        <button type="submit" class="btn green">Enviar</button>
-        <a class="btn yellow darken-3" href="./Frontend/public/Cadastrar.php">Cadastrar</a>
-        </div>
-    </div>
-      
-
-
-          </form>
-        </div></div>
-
-    </div>
+<div class="input-field col s12 m12 l12">
+<input  id="first_name" type="text" class="validate white" required name="Nome">
+<label for="first_name">Nome de Usuário</label>
+</div>
+<input hidden name="op" value="0">
+<div class="input-field col s12 m12 l12">
+<input id="password" type="password" class="validate white" required name="Senha">
+<label for="password">Senha</label>
+</div>
+<div class="input-field col s12 m12 l12 center">
+<button type="submit" class="btn green">Enviar</button>
+<a class="btn yellow darken-3" href="./Frontend/public/Cadastrar.php">Cadastrar</a>
 </div>
 </div>
+
+
+
+</form>
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
 
 </main>
 
 
-    <?php include("components/Footer.php") ?>
+<?php include("components/Footer.php") ?>
 
+      <!-- JQuary -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <!--  JQuery  CDN -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js " integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin=" anonymous "></script>
-    <!--  Materialize JS CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
-    <!-- My JS base -->
-    <script src="../src/Base.js"></script>
-</body>
+      <!-- Materialize js -->
+      <script type="text/javascript" src="src/js/materialize.js"></script>
 
-</html>
+      <!-- Materialize js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    </body>
+  </html>

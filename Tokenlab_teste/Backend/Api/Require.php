@@ -1,9 +1,9 @@
 <?php
 
     $host = "localhost"; //(IP) 
-	$usuario = "User_token";
+	$usuario = "id12620794_user_token";
 	$senha = "gwvVwccNkZUl5gu3";
-	$database = "teste_token";
+	$database = "id12620794_token_test";
 	
 		 //iniciando a conexão com o banco de dados 
 		$conx = mysqli_connect($host, $usuario, $senha);

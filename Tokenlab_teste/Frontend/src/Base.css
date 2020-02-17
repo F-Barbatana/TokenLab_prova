@@ -1,12 +1,13 @@
 body {
+    font-size: 100%;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-repeat: no-repeat;
     background-color: #e8eaf6;
 }
 
 main {
     flex: 1 0 auto;
+    margin: 0;
     background-color: rgba(000, 000, 000, 0.59);
 }

@@ -39,19 +39,20 @@ function valor_mes($a){
 
 
 <!DOCTYPE html>
-<html lang="pt-br">
-<meta charset="utf-8">
-<meta author="Fabricio Eras Manzi Barbatana Filho">
+  <html lang="pt-br">
+    <head>
+      <meta charset="utf-8">
+      <meta name="Author" content="Fabrício Barbatana Filho">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="src/css/contrast.css">
+      <title>Eventos</title>
 
-<head>
-    <title>Eventos</title>
-    <!--  My CSS -->
-    <link rel="stylesheet" href="../src/Base.css">
-    <!--  Materialize CSS CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Matrial icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+      
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    </head>
 
 <body>
 <?php include("components/navbar.php") ?>

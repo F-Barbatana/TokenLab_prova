@@ -2,16 +2,23 @@
 
 echo  '
 
-<header>
-<nav>
-    <div class=" indigo lighten-2"><div class="row">
-    <a href="#" class="brand-logo center">Eventos</a>   
-    
-    <a href="../../index.php" class="right"><i class="material-icons">close</i></a>
-    <a href="../../Frontend/public/Calendario.php" class="right"><i class="material-icons">arrow_back</i></a>
-    </div><br>
-    </div>
+
+
+
+<!-- Navbar -->
+<nav class="hide-on-small-only indigo nav-extended"></nav>
+
+  <nav class="indigo  z-depth-1">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#menu" id="base" class="brand-logo center  orange-text">Eventos</a>
+          <a href="../../index.php" class="right"><i class="material-icons">close</i></a>
+          <a href="../../Frontend/public/Calendario.php" class="right"><i class="material-icons">arrow_back</i></a>
+        </div>
+          
+        </div>
   </nav>
+  </div>
 </header>
 
 '
